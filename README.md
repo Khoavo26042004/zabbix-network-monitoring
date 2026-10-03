@@ -5,14 +5,9 @@ pfSense, Windows Server and Ubuntu Server.
 
 ## Overview
 
-This project was developed as my Bachelor's Graduation Thesis:
+A personal technical research project focused on designing and implementing a network monitoring and incident alerting system using Zabbix.
 
-"Xây dựng hệ thống giám sát và cảnh báo sự cố mạng sử dụng Zabbix"
-
-The system focuses on monitoring network infrastructure, detecting
-service and resource failures, and sending real-time alerts to
-administrators.
-
+The project explores how infrastructure monitoring can be used to detect network and server incidents, collect monitoring data, identify abnormal conditions, and notify administrators in real time.
 ## Technologies
 
 - Zabbix
@@ -27,4 +22,25 @@ administrators.
 - DNS
 - Active Directory
 
-## Architecture
+# Key Implementations
+- Deployed a Zabbix monitoring server on Ubuntu Server.
+- Configured Zabbix Agent for Windows Server monitoring.
+- Configured SNMP-based monitoring for pfSense.
+- Monitored network availability and interface status.
+- Monitored CPU, memory, disk usage, and network traffic.
+- Created trigger-based incident detection scenarios.
+- Integrated Telegram for real-time alert notifications.
+- Built a virtualized network environment to simulate an enterprise infrastructure.
+
+# Monitoring Scenarios
+
+The system was designed to detect scenarios such as:
+
+- Host unavailable
+- Windows Server agent unavailable
+- High CPU utilization
+- High memory utilization
+- Low disk space
+- WAN interface failure
+- Abnormal network traffic
+- Network connectivity problems
