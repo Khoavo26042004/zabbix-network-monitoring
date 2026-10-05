@@ -1,46 +1,47 @@
 # Zabbix Network Monitoring & Alerting System
 
-A network monitoring and incident alerting system built with Zabbix,
-pfSense, Windows Server and Ubuntu Server.
+Hệ thống giám sát mạng và cảnh báo sự cố được xây dựng với **Zabbix, pfSense, Windows Server và Ubuntu Server**.
 
-## Overview
+## Tổng quan
 
-A personal technical research project focused on designing and implementing a network monitoring and incident alerting system using Zabbix.
+Đây là một **personal technical research project** tập trung vào việc nghiên cứu, thiết kế và triển khai hệ thống **network monitoring và incident alerting** sử dụng Zabbix.
 
-The project explores how infrastructure monitoring can be used to detect network and server incidents, collect monitoring data, identify abnormal conditions, and notify administrators in real time.
-## Technologies
+Project nghiên cứu cách sử dụng **infrastructure monitoring** để phát hiện các sự cố liên quan đến network và server, thu thập dữ liệu giám sát, xác định các trạng thái bất thường và gửi thông báo đến administrator theo thời gian thực.
 
-- Zabbix
-- Ubuntu Server 24.04
-- pfSense
-- Windows Server 2022
-- SNMP
-- Zabbix Agent
-- ICMP
-- Telegram Bot
-- VMware
-- DNS
-- Active Directory
+## Công nghệ
 
-# Key Implementations
-- Deployed a Zabbix monitoring server on Ubuntu Server.
-- Configured Zabbix Agent for Windows Server monitoring.
-- Configured SNMP-based monitoring for pfSense.
-- Monitored network availability and interface status.
-- Monitored CPU, memory, disk usage, and network traffic.
-- Created trigger-based incident detection scenarios.
-- Integrated Telegram for real-time alert notifications.
-- Built a virtualized network environment to simulate an enterprise infrastructure.
+* Zabbix
+* Ubuntu Server 24.04
+* pfSense
+* Windows Server 2022
+* SNMP
+* Zabbix Agent
+* ICMP
+* Telegram Bot
+* VMware
+* DNS
+* Active Directory
 
-# Monitoring Scenarios
+# Triển khai chính
 
-The system was designed to detect scenarios such as:
+* Triển khai **Zabbix monitoring server** trên Ubuntu Server.
+* Cấu hình **Zabbix Agent** để giám sát Windows Server.
+* Cấu hình **SNMP-based monitoring** cho pfSense.
+* Giám sát trạng thái hoạt động của network và interface.
+* Giám sát CPU, memory, disk usage và network traffic.
+* Xây dựng các **trigger-based incident detection scenarios**.
+* Tích hợp **Telegram** để gửi thông báo sự cố theo thời gian thực.
+* Xây dựng **virtualized network environment** để mô phỏng hạ tầng mạng trong môi trường doanh nghiệp.
 
-- Host unavailable
-- Windows Server agent unavailable
-- High CPU utilization
-- High memory utilization
-- Low disk space
-- WAN interface failure
-- Abnormal network traffic
-- Network connectivity problems
+# Kịch bản giám sát
+
+Hệ thống được thiết kế để phát hiện các tình huống như:
+
+* **Host unavailable**
+* **Windows Server agent unavailable**
+* **High CPU utilization**
+* **High memory utilization**
+* **Low disk space**
+* **WAN interface failure**
+* **Abnormal network traffic**
+* **Network connectivity problems**
