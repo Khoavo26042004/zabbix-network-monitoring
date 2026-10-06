@@ -4,23 +4,23 @@
 	- Database: MySQL.
 	- Web server: Apache2.
 	- PHP, net-snmp: LTS version.
-+ Cài đặt Ubuntu:
+**+ Cài đặt Ubuntu:**
 
   <img width="753" height="728" alt="image" src="https://github.com/user-attachments/assets/a1106761-b029-40db-b560-0817b8c7f7ef" />
 
-Xem thông tin phiên bản đang dùng
+**Xem thông tin phiên bản đang dùng**
 
 <img width="915" height="374" alt="image" src="https://github.com/user-attachments/assets/c3f97067-846c-4a6a-a394-a94afa32eb4b" />
 
 # 2. Cài đặt Zabbix Server 
-Chuẩn bị môi trường.
+**Chuẩn bị môi trường.**
 + Bước 1: Cập nhật hệ thống.
  <img width="915" height="33" alt="image" src="https://github.com/user-attachments/assets/39d0ebe9-a13b-4c46-9197-393af5be774d" />
 
 + Bước 2: Cài đặt Database (MySQL/ MariaDB).
  <img width="915" height="46" alt="image" src="https://github.com/user-attachments/assets/57f32165-471e-4639-b09a-7cdc17b853d1" />
 
-Tải file cài đặt.
+**Tải file cài đặt.**
 + Bước 1: Lên trang chủ Zabbix và tải file cài đặt từ package.
 + Bước 2: Cài đặt và cấu hình cho Zabbix.
  <img width="915" height="36" alt="image" src="https://github.com/user-attachments/assets/5cd686b5-ff2d-4af7-b29c-fd99d9e2329a" />
@@ -62,7 +62,7 @@ Tải file cài đặt.
 <img width="915" height="453" alt="image" src="https://github.com/user-attachments/assets/a81e0059-6875-4cf1-9511-8f5f6ca79f63" />
 
 # 4. Cài đặt Zabbix Agent
-Cài đặt Zabbix agent cho window server 2022.
+**Cài đặt Zabbix agent cho window server 2022.**
 + Bước 1: Tải zabbix agent bằng dòng lệnh.
  <img width="915" height="79" alt="image" src="https://github.com/user-attachments/assets/25ca93b2-161a-48c0-8bb1-92829649d5f1" />
 
@@ -75,7 +75,7 @@ Cài đặt Zabbix agent cho window server 2022.
 + Bước 4: Cài đặt Zabbix agent.
  <img width="915" height="130" alt="image" src="https://github.com/user-attachments/assets/16c6818a-97c4-4c84-b36b-f3ef85c119a3" />
 
-Cài đặt giao thức SNMP cho Pfsense trên Zabbix.
+**Cài đặt giao thức SNMP cho Pfsense trên Zabbix.**
 + Bước 1: Cài đặt package SNMP trên pfsense. Chọn theo đường dẫn System → Package Manager → Available Packages → search net-snmp.
 
 <img width="915" height="120" alt="image" src="https://github.com/user-attachments/assets/b797e36b-cc87-4e4d-9c64-c249753ef12c" />
