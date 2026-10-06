@@ -39,9 +39,9 @@ Dự án nghiên cứu cách sử dụng **infrastructure monitoring** để ph�
 
 <img width="856" height="756" alt="image" src="https://github.com/user-attachments/assets/56cccdba-f177-430d-b092-6f5010b87a82" />
 
-**Trong mô hình các thành phần trong hệ thống mạng được quy hoạch theo bảng sau, bao gồm:**
+### Trong mô hình các thành phần trong hệ thống mạng được quy hoạch theo bảng sau, bao gồm:
 
-### Bảng quy hoạch thành phần trong sơ đồ mạng.
+#### Bảng quy hoạch thành phần trong sơ đồ mạng.
 
 | Vùng | Host name | IP | OS | Mục đích |
 |:---:|:---:|:---:|:---:|---|
